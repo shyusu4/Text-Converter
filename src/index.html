@@ -4,11 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
     <title>Text Converter</title>
   </head>
   <body>
-    <header></header>
-    <div></div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <ul class="navbar-nav left-items">
+          <li class="nav-item p-2"><i class="bi bi-chevron-double-right"></i></li>
+          <li class="nav-item">
+            <a class="nav-link underline active" aria-current="page" href="#"
+              ><i class="bi bi-book p-1"></i>Main</a
+            >
+          </li>
+          <li class="nav-item p-2"><span>/</span></li>
+          <li class="nav-item">
+            <a class="nav-link underline" href="#">Getting started</a>
+          </li>
+          <li class="nav-item p-2"><span>/</span></li>
+          <li class="nav-item">
+            <a class="nav-link underline" href="#">Front-end developer test proje...</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-flex flex-row me-1">
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#"
+              ><i class="bi bi-unlock p-1"></i>Editing</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-user mx-1"></i>Publish Space
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdown"
+            >
+              <li>
+                <a class="dropdown-item" href="#">My account</a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="#">Log out</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <header class="primary-header">
+    </header>
+    <main>
+      <h1 class="page-title">Front-end developer test project</h1>
+      <p class="page-title__description">The goal of this project is to allow users to create H1 text simply by typing / then 1, then typing text, and hitting enter</p>
+    </main> -->
     <script src="./index.js" type="module"></script>
   </body>
 </html>
