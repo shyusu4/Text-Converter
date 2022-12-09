@@ -32,11 +32,11 @@
   text-decoration: underline;
 }
 
-.dropdown-toggle{
+.dropdown-toggle {
   color: var(--light-blue);
 }
 
-.dropdown-toggle:hover{
+.dropdown-toggle:hover {
   color: var(--dark-blue);
 }
 
