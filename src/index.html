@@ -14,7 +14,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
-    <script src="./index.js" type="module"></script>
     <title>Text Converter</title>
   </head>
   <body>
@@ -25,7 +24,7 @@
         <div class="d-flex">
           <ul class="navbar-nav flex-row">
             <li class="nav-item p-2">
-              <i class="bi bi-chevron-double-right"></i>
+              <i class="bi bi-chevron-right"></i>
             </li>
             <li class="nav-item">
               <a class="nav-link underline" aria-current="page" href="#"
@@ -62,17 +61,17 @@
     </nav>
     <!-- Header -->
     <header class="header m-2 d-flex justify-content-center">
-      <div class="hstack gap-2 w-50 p-2 border rounded">
+      <div class="hstack gap-3 w-50 p-2 border rounded">
         <!-- Left elements -->
-        <div class="px-2 py-1">P</div>
+        <div class="px-2 py-1 p-icon">P</div>
         <span class="vr"></span>
         <div><i class="bi bi-clock"></i>0min</div>
         <span class="vr"></span>
-        <div>rabbit</div>
+        <img src="./assets/rabbit.png" alt="rabbit icon" />
         <span class="vr"></span>
-        <!-- Right elements -->
         <div><i class="bi bi-arrow-down-left"></i>0</div>
-        <div class="ms-auto ps-5">
+        <!-- Right elements -->
+        <div class="right-elems ms-auto ps-5">
           <i class="bi bi-check2-circle"></i>
           <i class="bi bi-cloud"></i>
           <i class="bi bi-three-dots-vertical"></i>
@@ -80,12 +79,12 @@
       </div>
     </header>
     <!-- User Interaction -->
-    <section class="d-flex justify-content-center">
-      <div class="main-content w-50 mt-4">
-        <h1 class="font-weight-light border-bottom">
+    <section class="main-content d-flex justify-content-center">
+      <div class="w-50 mt-4">
+        <h1 class="title border-bottom pb-3">
           Front-end developer test project
         </h1>
-        <p>
+        <p class="subtitle">
           Your goal is to make a page that looks exactly this one, and has the
           ability to create H1 text simply by typing / then 1, then typing text,
           and hitting enter.
@@ -103,5 +102,6 @@
         </div>
       </div>
     </section>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>

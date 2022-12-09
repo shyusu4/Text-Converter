@@ -31,3 +31,27 @@ const getUserInput = (input) => {
     }
   });
 };
+
+// call getUserInput to generate the users output
+inputContainer.addEventListener('input', (e) => {
+  getUserInput(e.target.value);
+});
+
+const displayOptions = (input) => {
+  document.addEventListener('input', () => {
+    if (input === '/') {
+      const options = document.createElement('div');
+      options.setAttribute('class', 'options');
+      options.innerHTML = `
+        <div>
+          <div>Add blocks</div>
+        </div>
+          `;
+      outputContainer.appendChild(options);
+    }
+  });
+};
+
+inputContainer.addEventListener('input', (e) => {
+  displayOptions();
+});
