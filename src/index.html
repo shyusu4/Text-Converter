@@ -63,7 +63,7 @@
     <header class="header m-2 d-flex d-none d-md-flex justify-content-center">
       <div class="hstack gap-3 w-50 p-2 border rounded">
         <!-- Left elements -->
-        <div class="px-2 py-1 p-icon">P</div>
+        <div class="px-2 py-1 rounded p-icon">P</div>
         <span class="vr"></span>
         <div><i class="bi bi-clock"></i>0min</div>
         <span class="vr"></span>
@@ -89,16 +89,15 @@
           ability to create H1 text simply by typing / then 1, then typing text,
           and hitting enter.
         </p>
-        <div id="output-container">
-          <div id="input-container">
-            <input
-              type="text"
-              class="mt-5 w-100 border-0"
-              id="user-input"
-              contenteditable="true"
-              placeholder="Type / for block, @ to link docs or people"
-            />
-          </div>
+        <div id="output-container"></div>
+        <div id="input-container">
+          <input
+            type="text"
+            class="mt-5 w-100 border-0"
+            id="user-input"
+            contenteditable="true"
+            placeholder="Type / for block, @ to link docs or people"
+          />
         </div>
       </div>
     </section>
