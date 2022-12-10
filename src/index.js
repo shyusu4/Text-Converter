@@ -1,6 +1,6 @@
 import './style.css';
 
-const outputContainer = document.getElementById('output-container'); //container of editor area
+const outputContainer = document.getElementById('output-container');
 const inputContainer = document.getElementById('input-container');
 const userInput = document.getElementById('user-input');
 
