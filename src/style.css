@@ -51,7 +51,6 @@
 .p-icon {
   color: var(--dark-green);
   background-color: var(--light-green);
-  border-radius: 5px;
 }
 
 .header {
@@ -80,8 +79,38 @@
   color: var(--dark-green);
 }
 
+.options {
+  font-size: 12px;
+  box-shadow: rgba(141, 136, 136, 0.2) 0 2px 8px 0;
+}
+
+.options-none {
+  display: none;
+}
+
+.options-title {
+  font-size: 20px;
+}
+
+.options-list .bi {
+  font-size: 3rem;
+}
+
+.options p {
+  color: var(--dark-gray);
+}
+
+.options-filter span {
+  color: white;
+  background-color: var(--light-blue);
+}
+
 input::placeholder {
   color: var(--light-gray);
+}
+
+input:focus {
+  outline: none;
 }
 
 img {
