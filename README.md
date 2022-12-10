@@ -1,11 +1,7 @@
 # Text Converter
 > Vanilla JS text editor that converts user input into heading (`h1`) or plain text (`p`)
 
-## Preview
-
-![Website preview]()
-
-## [Live Demo](https://odinbook-next.vercel.app)
+## [Live Demo](https://texconverter.netlify.app/)
 
 ## Built with
 
